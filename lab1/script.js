@@ -73,7 +73,10 @@ function triangle(value1, type1, value2, type2) {
         console.log("Введені значення не утворюють прямокутний трикутник.");
         return "failed";
     }
-
+    if (c <= a || c <= b){
+        console.log("Гіпотенуза не може бути меншою за катет.");
+        return "failed";
+    }
     // Виведення результатів
     console.log("a =", a);
     console.log("b =", b);
