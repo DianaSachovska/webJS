@@ -149,7 +149,7 @@ class Rhombus extends Square {
     }
 
     square() {
-        console.log("Площа ромба:", this.a ** 2 * Math.sin(this.alpha) * Math.PI / 180);
+        console.log("Площа ромба:",  (this.a ** 2) * Math.sin(this.beta * Math.PI / 180));
     }
 
     info() {
@@ -159,7 +159,6 @@ class Rhombus extends Square {
         console.log("Гострий кут (beta):", this.beta, "градусів");
         this.length();
         this.square();
-        console.log("Площа:", this.a ** 2 * Math.sin(this.alpha * Math.PI / 180));
     }
 }
 
@@ -179,7 +178,7 @@ class Parallelogram extends Rectangle {
     }
 
     square() {
-        console.log("Площа ромба:", this.a * this.b * Math.sin(this.alpha * Math.PI / 180));
+        console.log("Площа паралелограма:", this.a * this.b * Math.sin(this.alpha * Math.PI / 180));
     }
     info() {
         console.log("Характеристика паралелограма:");
