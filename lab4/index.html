@@ -1,1 +1,52 @@
-<h1>init<h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Library Demo</title>
+    <script src="sorting-library.js"></script>
+    <script>
+        window.onload = function() {
+            let array = [];
+            for (var i = 0; i < 100; i++) {
+                array.push(Math.floor(Math.random() * 1000));
+            }
+
+            console.log('Original array:', array);
+
+            SortingLibrary.selectionSort(array.slice());
+            SortingLibrary.insertionSort(array.slice());
+            SortingLibrary.shellSort(array.slice());
+            SortingLibrary.quickSort(array.slice());
+
+            let sparseArray = [];
+            for (var j = 0; j < 100; j++) {
+                if (j % 10 === 0) {
+                    sparseArray[j] = undefined;
+                } else {
+                    sparseArray[j] = Math.floor(Math.random() * 1000);
+                }
+            }
+
+            console.log('Sparse array:', sparseArray);
+
+            SortingLibrary.bubbleSort(sparseArray.slice());
+            SortingLibrary.selectionSort(sparseArray.slice());
+            SortingLibrary.insertionSort(sparseArray.slice());
+            SortingLibrary.shellSort(sparseArray.slice());
+            SortingLibrary.quickSort(sparseArray.slice());
+
+            console.log('Sparse array in desc order:');
+            SortingLibrary.bubbleSort(sparseArray.slice(), false);
+            SortingLibrary.selectionSort(sparseArray.slice(), false);
+            SortingLibrary.insertionSort(sparseArray.slice(), false);
+            SortingLibrary.shellSort(sparseArray.slice(), false);
+            SortingLibrary.quickSort(sparseArray.slice(), false);
+        
+        }
+    </script>
+</head>
+<body>
+<h1>Completed lab4 in the console</h1>
+</body>
+</html>
