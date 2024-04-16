@@ -1,0 +1,16 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(5, 40px);
+    grid-gap: 2px;
+    margin: 20px auto;
+  }
+  .cell {
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .on {
+    background-color: yellow;
+  }
