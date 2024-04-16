@@ -19,7 +19,7 @@ function getGridFromJSON() {
 
   return new Promise((resolve, reject) => {
     var request = new XMLHttpRequest();
-    request.open("GET", "http://127.0.0.1:5500/boards.json", true);
+    request.open("GET", "https://dianasachovska.github.io/webJS/lab6/boards.json", true);
     request.onload = function () {
       if (request.status >= 200 && request.status < 300) {
         console.log("Game loaded successfully.");
