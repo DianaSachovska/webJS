@@ -1,0 +1,7 @@
+[
+    { "id": 1, "name": "Electronics", "shortname": "electronics", "notes": "" },
+    { "id": 2, "name": "Clothing", "shortname": "clothing", "notes": "" },
+    { "id": 3, "name": "Books", "shortname": "books", "notes": "" },
+    { "id": 4, "name": "Specials", "shortname": "specials", "notes": "" }
+]
+  
