@@ -1,0 +1,30 @@
+{
+    "categoryName": "Electronics",
+    "products": [
+      {
+        "id": 1,
+        "name": "Smartphone",
+        "shortname": "smartphone",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": "499",
+        "image": "https://place-hold.it/200x200"
+      },
+      {
+        "id": 2,
+        "name": "Laptop",
+        "shortname": "laptop",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": "899",
+        "image": "https://place-hold.it/200x200"
+      },
+      {
+        "id": 3,
+        "name": "Headphones",
+        "shortname": "headphones",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": "99",
+        "image": "https://place-hold.it/200x200"
+      }
+    ]
+  }
+  

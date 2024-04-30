@@ -1,0 +1,30 @@
+{
+    "categoryName": "Clothing",
+    "products": [
+      {
+        "id": 1,
+        "name": "T-Shirt",
+        "shortname": "t-shirt",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": "19.99",
+        "image": "https://place-hold.it/200x200"
+      },
+      {
+        "id": 2,
+        "name": "Jeans",
+        "shortname": "jeans",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": "39.99",
+        "image": "https://place-hold.it/200x200"
+      },
+      {
+        "id": 3,
+        "name": "Dress",
+        "shortname": "dress",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": "49.99",
+        "image": "https://place-hold.it/200x200"
+      }
+    ]
+  }
+  

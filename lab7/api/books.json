@@ -1,0 +1,30 @@
+{
+    "categoryName": "Books",
+    "products": [
+      {
+        "id": 1,
+        "name": "Programming in Python",
+        "shortname": "python-book",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": "29.99",
+        "image": "https://place-hold.it/200x200"
+      },
+      {
+        "id": 2,
+        "name": "Introduction to JavaScript",
+        "shortname": "js-book",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": "24.99",
+        "image": "https://place-hold.it/200x200"
+      },
+      {
+        "id": 3,
+        "name": "Data Structures and Algorithms",
+        "shortname": "dsa-book",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": "34.99",
+        "image": "https://place-hold.it/200x200"
+      }
+    ]
+  }
+  
